@@ -1,0 +1,53 @@
+*{
+    align-content: center;
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.frm1{
+    background-color: hsl(0, 6%, 12%);
+    width: 375px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-top: 50%;
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#name{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#loc{
+    font-size: 15px;
+    color: hsl(75, 94%, 57%);
+}
+#fed{
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-color: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:  hsl(0, 6%, 12%);
+}
